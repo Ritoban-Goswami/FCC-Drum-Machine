@@ -13,48 +13,52 @@
 
 <body>
     <div class="container-fluid" id="drum-machine">
-        <div class="row">
         <h1 class="text-center my-5">FCC Drum Machine</h1>
-        <div class="card">
-            <div class="card-body text-center" id="display">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-8">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-body text-center" id="display">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button onclick="play('Q')" class="col drum-pad btn btn-success m-2" id="q">Q
+                            <audio src="Q.mp3" class="clip" id="Q"></audio>
+                        </button>
+                        <button onclick="play('W')" class="col drum-pad btn btn-success m-2" id="w">W
+                            <audio src="W.mp3" class="clip" id="W"></audio>
+                        </button>
+                        <button onclick="play('E')" class="col drum-pad btn btn-success m-2" id="e">E
+                            <audio src="E.mp3" class="clip" id="E"></audio>
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button onclick="play('A')" class="col drum-pad btn btn-success m-2" id="a">A
+                            <audio src="A.mp3" class="clip" id="A"></audio>
+                        </button>
+                        <button onclick="play('S')" class="col drum-pad btn btn-success m-2" id="s">S
+                            <audio src="S.mp3" class="clip" id="S"></audio>
+                        </button>
+                        <button onclick="play('D')" class="col drum-pad btn btn-success m-2" id="d">D
+                            <audio src="D.mp3" class="clip" id="D"></audio>
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button onclick="play('Z')" class="col drum-pad btn btn-success m-2" id="z">Z
+                            <audio src="Z.mp3" class="clip" id="Z"></audio>
+                        </button>
+                        <button onclick="play('X')" class="col drum-pad btn btn-success m-2" id="x">X
+                            <audio src="X.mp3" class="clip" id="X"></audio>
+                        </button>
+                        <button onclick="play('C')" class="col drum-pad btn btn-success m-2" id="c">C
+                            <audio src="C.mp3" class="clip" id="C"></audio>
+                        </button>
+                    </div>
+                </div>
             </div>
-          </div>
-        <div class="row">
-            <button onclick="play('Q')" class="col drum-pad btn btn-success m-2" id="q">Q
-                <audio src="Q.mp3" class="clip" id="Q"></audio>
-            </button>
-            <button onclick="play('W')" class="col drum-pad btn btn-success m-2" id="w">W
-                <audio src="W.mp3" class="clip" id="W"></audio>
-            </button>
-            <button onclick="play('E')" class="col drum-pad btn btn-success m-2" id="e">E
-                <audio src="E.mp3" class="clip" id="E"></audio>
-            </button>
-        </div>
-        <div class="row">
-            <button onclick="play('A')" class="col drum-pad btn btn-success m-2" id="a">A
-                <audio src="A.mp3" class="clip" id="A"></audio>
-            </button>
-            <button onclick="play('S')" class="col drum-pad btn btn-success m-2" id="s">S
-                <audio src="S.mp3" class="clip" id="S"></audio>
-            </button>
-            <button onclick="play('D')" class="col drum-pad btn btn-success m-2" id="d">D
-                <audio src="D.mp3" class="clip" id="D"></audio>
-            </button>
-        </div>
-        <div class="row">
-            <button onclick="play('Z')" class="col drum-pad btn btn-success m-2" id="z">Z
-                <audio src="Z.mp3" class="clip" id="Z"></audio>
-            </button>
-            <button onclick="play('X')" class="col drum-pad btn btn-success m-2" id="x">X
-                <audio src="X.mp3" class="clip" id="X"></audio>
-            </button>
-            <button onclick="play('C')" class="col drum-pad btn btn-success m-2" id="c">C
-                <audio src="C.mp3" class="clip" id="C"></audio>
-            </button>
-        </div>
         </div>
     </div>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
